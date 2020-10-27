@@ -1,0 +1,131 @@
+.page-header{
+  padding: 10px;
+  background-color: #36393f;
+}
+.page-header__title{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.page-header__myUser{
+  color: #fff;
+  font-size: 16px;
+}
+.btn-login{
+  margin: 10px 0;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+
+.page-body-statistics{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.statistics-bloque{
+  padding: 10px;
+  width: 100%;
+  /* border: 1px solid #2f3136; */
+  /* border-radius: 4px; */
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.05);
+}
+.--available{
+  color: #fff;
+  background-color: #55c06c;
+}
+.--not-available{
+  color: #fff;
+  background-color: #c05555;
+}
+.statistics-bloque__title{
+  font-size: 18px;
+  font-weight: 700;
+}
+.statistics-bloque__value{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list-customers-waiting{
+  min-height: 250px;
+}
+.customer-waiting__title{
+  padding: 10px;
+  background-color: #f2f3f5;
+  font-size: 18px;
+  font-weight: 500;
+}
+.customer-waiting-row{
+  padding: 10px;
+  border-bottom: 1px solid #f2f3f5;
+}
+.customer-waiting-row:hover{
+  background-color: #f8f8fa;
+}
+.customer-waiting__pos{
+  display: inline-block;
+  margin-right: 5px;
+  width: 90px;
+  font-size: 14px;
+}
+.customer-waiting__user{
+  font-weight: 500;
+}
+
+
+.barber-data{
+  margin-top: 10px;
+}
+.barber__title{
+  padding: 10px;
+  background-color: #f2f3f5;
+  font-size: 18px;
+  font-weight: 500;
+}
+.barber__status{
+  padding: 5px;
+  background-color: red;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+.--available{
+  color: #145a23;
+  background-color: #acdfb7;
+}
+.--not-available{
+  color: #6b1212;
+  background-color: #f8a0a0;
+}
+.--info{
+  color: #2c2d8a;
+  background-color: #bac4fc;
+}
+
+
+.customer-actions{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 20px;
+}
+.action-box{
+  margin: 0 5px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.10);
+}
+.--action-active{
+  color: #fff;
+  background-color: #4173dd;
+}
+.action-box__title{
+  font-size: 18px;
+  font-weight: 700;
+}
+.action-box__btn{
+  font-size: 16px;
+  font-weight: 500;
+}
